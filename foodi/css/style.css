@@ -250,3 +250,37 @@ letter-spacing: 0em;
 text-align: left;
 margin-left: 10%;
 }
+.slider-img
+{
+    width: 100%;
+}
+.Group-img
+{
+
+        margin-top: -138%;
+        margin-left: -24%;
+
+}
+
+.box {
+    display: flex;
+    padding: 4%;
+    width: 300px;
+    height: 132px;
+    top: 880px;
+    left: 839px;
+    border-radius: 25px;
+    box-shadow: 7px 35px 51px 0px #00000024;
+}
+.fa-yellow
+{
+    color: #cbdb39;
+}
+.star
+{
+    display: flex;
+}
+.star li{
+    text-decoration: none;
+    list-style-type: none;
+}
