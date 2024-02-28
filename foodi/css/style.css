@@ -538,6 +538,10 @@ width:45px;
 height: 45px;
 border-radius: 50%;
 }
+#testimonial-user
+{
+    padding: 13%;
+}
 .Copyright
 {
     font-family: Inter;
@@ -603,7 +607,7 @@ color: #555555;
     letter-spacing: 0em;
     text-align: left;
     color: #555555;
-   width: 60%;
+   width:86%;
 }
 .Feedback
 {
