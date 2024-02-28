@@ -551,8 +551,9 @@ color: #555555;
 }
 .chef {
     text-align: center;
-    margin-top: -39%;
-    margin-left: 50%;
+    margin-top: -24%;
+    margin-left: 46%;
+    width: 37%;
 }
 .testimonial2,.testimonial3
 {
@@ -618,6 +619,10 @@ color: #807E7E;
 .user{
    display: flex;
    margin-top: 10%;
+}
+.chef-img
+{
+    width: 70%;
 }
 @media only screen 
   and (min-device-width: 210px) 
