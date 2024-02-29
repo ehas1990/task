@@ -4,22 +4,40 @@
     font-family:Inter ;
     src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
 }
-.product-slider{
+.special-box {
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    box-shadow: 2px 9px 11px 0px #00000014;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.special-img
+{
+    text-align: center;
+}
+.special-img img{
+    width:44%;
+}
+.leef-img img
+{
+    margin-top: -112%;
+    margin-left: 78%;
+    width: 23%;
+}
+.product-slider {
     display: flex;
     overflow: hidden;
-    height: 400px;
-    padding-top: 50px;
-    gap: 50px;
     white-space: nowrap;
     animation-duration: 1000ms;
     transition: ease-in-out;
+    gap:140px;
+    height: 396px;
 }
 .product{
     display: inline-block;
-    /* margin-left: 50px;
-    margin-right: 50px; */
+ 
 }
-
 .dish-head
 {
     font-family: Inter;
@@ -40,6 +58,7 @@
     text-align:left;
     color: #000000;
 }
+
 .special-arrow
 {
     text-align: end;
@@ -83,28 +102,7 @@
 {
     display: flex;
 }
-.leef-img img
-{
-    margin-top: -112%;
-    margin-left: 78%;
-    width: 23%;
-}
-.special-img
-{
-    text-align: center;
-}
-.special-img img{
-    width:44%;
-}
-.special-box
-{
-    width: 250px;
-    height: 290px;
-border-radius: 40px;
-box-shadow: 2px 9px 42px 0px #00000014;
-background-color: #ffffff;
 
-}
 #desc-header
 {
     background: #FFF;
@@ -735,6 +733,15 @@ border-radius: 50%;
   and (min-device-width: 210px) 
   and (max-device-width:320px)
 {   
+    .special-box {
+        width: 350px;
+        height: 350px;
+        border-radius: 40px;
+        box-shadow: 2px 9px 11px 0px #00000014;
+        background-color: #ffffff;
+        padding: 40px !important;
+        margin-left: 20% !important;
+    }
     .bars
     {
         display: flex !important;
@@ -877,6 +884,25 @@ border-radius: 50%;
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
 {
+    .special-box {
+        width: 350px;
+        height: 350px;
+        border-radius: 40px;
+        box-shadow: 2px 9px 11px 0px #00000014;
+        background-color: #ffffff;
+        padding: 40px !important;
+        margin-left: 20% !important;
+    }
+    .special-box {
+        width: 350px;
+        height: 350px;
+        border-radius: 40px;
+        box-shadow: 2px 9px 11px 0px #00000014;
+        background-color: #ffffff;
+        padding: 40px !important;
+        margin-left: 10% !important;
+}
+    }
     .bars
     {
         display: flex !important;
