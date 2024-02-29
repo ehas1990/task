@@ -188,6 +188,130 @@
           </div>
     </div>
   </section>
+  <section id="special-dish">
+    <div class="container">
+         <div class="row">
+               <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <div class="special-wrapper">
+                      <h6 class="dish-head">Special Dishes</h6>
+                      <h6 class="menu-title">Standout Dishes From Our Menu</h6>
+                    </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="special-arrow">
+                        <button onclick="nextProduct()" class="prev-btn">
+                          <img src="img/arrow1hover.png" class="left">
+                        </button>
+                          <button onclick="prevProduct()" class="next-btn">
+                            <img src="img/Group 5.png" class="right">
+                          </button>    
+                        
+                      </div>
+               </div>
+         </div>
+    </div>
+     
+      
+         
+    </div>
+    <div class="container mt-5">
+        
+                    <div class="product-slider" id="productSlider">
+                        <div class="product special-box">
+                                <div class="special-img"> <img src="img/Fattoush salad.png" alt="" ></div> 
+                                <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+                          
+                          <div class="specialwrapper">
+                                <h6 class="special-head">Fattoush salad</h6>
+                                <p class="special-p">Description of the item</p>
+                          </div>
+                          <div class="rate">
+                            <div class="price"><span style="color:#FF6868">$24.00</span></div>
+                            <div class="price-value"><i class="fa fa-star ml-2"></i>4.9</div>
+                          </div>
+                     
+                         </div>
+                         <div class="product special-box">
+                          <div class="special-img"> <img src="img/Fattoush salad.png" alt="" ></div> 
+                          <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+                    
+                    <div class="specialwrapper">
+                          <h6 class="special-head">Fattoush salad</h6>
+                          <p class="special-p">Description of the item</p>
+                    </div>
+                    <div class="rate">
+                      <div class="price"><span style="color:#FF6868">$24.00</span></div>
+                      <div class="price-value"><i class="fa fa-star ml-2"></i>4.9</div>
+                    </div>
+               
+                   </div>
+                       
+                    
+                        <div class="product special-box">
+                        <div class="special-img"> <img src="img/Mask group (1).png" alt="" ></div> 
+                        <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+                  
+                  <div class="specialwrapper">
+                        <h6 class="special-head">Vegetable salad</h6>
+                        <p class="special-p">Description of the item</p>
+                  </div>
+                  <div class="rate">
+                    <div class="price"><span style="color:#FF6868">$26.00</span></div>
+                    <div class="price-value"><i class="fa fa-star ml-2"></i>4.6</div>
+                  </div>
+            
+                        </div>
+                
+                 
+                  <div class="product special-box">
+                    <div class="special-img"> <img src="img/Mask group (1).png" alt="" ></div> 
+                    <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+              
+              <div class="specialwrapper">
+                    <h6 class="special-head">Egg vegi salad</h6>
+                    <p class="special-p">Description of the item</p>
+              </div>
+              <div class="rate">
+                <div class="price"><span style="color:#FF6868">$23.00</span></div>
+                <div class="price-value"><i class="fa fa-star ml-2"></i>4.5</div>
+              </div>
+         
+             </div>
+
+             <div class="product special-box">
+              <div class="special-img"> <img src="img/Mask group (1).png" alt="" ></div> 
+              <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+        
+        <div class="specialwrapper">
+              <h6 class="special-head">Egg vegi salad</h6>
+              <p class="special-p">Description of the item</p>
+        </div>
+        <div class="rate">
+          <div class="price"><span style="color:#FF6868">$23.00</span></div>
+          <div class="price-value"><i class="fa fa-star ml-2"></i>4.5</div>
+        </div>
+   
+       </div>
+
+       <div class="product special-box">
+        <div class="special-img"> <img src="img/Mask group (1).png" alt="" ></div> 
+        <div class="leef-img"><img src="img/leeflight.png" alt=""></div> 
+  
+  <div class="specialwrapper">
+        <h6 class="special-head">Egg vegi salad</h6>
+        <p class="special-p">Description of the item</p>
+  </div>
+  <div class="rate">
+    <div class="price"><span style="color:#FF6868">$23.00</span></div>
+    <div class="price-value"><i class="fa fa-star ml-2"></i>4.5</div>
+  </div>
+
+ </div>
+                
+      </div>
+        
+    </div>
+ </section>
   <section>
         <div class="container">
               <div class="row">
@@ -323,11 +447,22 @@
                        </ul>
                  </div>
                  <div class="col-lg-7 col-md-7 col-sm-12 col-12">
-                     <p class="Copyright">Copyright © Dscode | All Rights reserved</p>
+                     <p class="Copyright">Copyright © 2024 | All Rights reserved</p>
                  </div>
            </div>
      </div>
 </footer>
+<script>
+  const productSlider = document.getElementById('productSlider');
+
+  const nextProduct = () => {
+    productSlider.scrollLeft += 500;
+  };
+
+  const prevProduct = () => {
+    productSlider.scrollLeft -= 500;
+  };
+</script>
 </body>
 </html>
 

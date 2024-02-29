@@ -4,6 +4,107 @@
     font-family:Inter ;
     src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
 }
+.product-slider{
+    display: flex;
+    overflow: hidden;
+    height: 400px;
+    padding-top: 50px;
+    gap: 50px;
+    white-space: nowrap;
+    animation-duration: 1000ms;
+    transition: ease-in-out;
+}
+.product{
+    display: inline-block;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.dish-head
+{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.175em;
+    text-align: left;
+    color: #FF6868;
+}
+.menu-title
+{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align:left;
+    color: #000000;
+}
+.special-arrow
+{
+    text-align: end;
+}
+.left,.right{
+    width:13%;
+}
+#special-dish
+{
+    margin-top: 10%;
+}
+.price,.price-value
+{
+    width: 50%;
+    text-align: center;
+}
+.special-head
+{
+   
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+
+}
+.special-p
+{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #555555;
+
+}
+.rate
+{
+    display: flex;
+}
+.leef-img img
+{
+    margin-top: -112%;
+    margin-left: 78%;
+    width: 23%;
+}
+.special-img
+{
+    text-align: center;
+}
+.special-img img{
+    width:44%;
+}
+.special-box
+{
+    width: 250px;
+    height: 290px;
+border-radius: 40px;
+box-shadow: 2px 9px 42px 0px #00000014;
+background-color: #ffffff;
+
+}
 #desc-header
 {
     background: #FFF;
@@ -1327,3 +1428,4 @@ width: 30% !important;
 }
 
 
+/* new */
