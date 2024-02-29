@@ -107,17 +107,10 @@
     height: 100px;
     width: 100%;
     display: flex;
-    padding: 3%;
+    padding: 10%;
     display: none;
 }
-.mobile-logo
-{
-    width: 25%;
-}
-.mobile-social
-{
-    width: 75%;
-}
+
 .badge-btn
 {
     background: #39DB4A;
@@ -640,8 +633,139 @@ border-radius: 50%;
 @media only screen 
   and (min-device-width: 210px) 
   and (max-device-width:320px)
+{   
+    .bars
+    {
+        display: flex !important;
+    }
+    .mobile-social {
+      
+        margin-top: -15% !important;
+    }
+    .mobile-logo .desc-logo
+    {
+        width: 45% !important;
+    }
+    .Copyright {
+        font-family: Inter;
+        font-size: 14px !important;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgb(85, 85, 85);
+    }
+    #Customer-Feedback
+    {
+        width: 100% !important;
+    }
+    .testimonia-head
 {
+    font-family: Inter;
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+    .Catagories-text
+{
+    font-family: Inter;
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
 
+}
+    .story-head {
+        font-family: Inter;
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+    .user {
+        display: flex;
+        margin-top: 10%;
+        width: 75% !important;
+    }
+#user1 img, #user2 img,#user3 img
+{
+    width: 60% !important;
+}
+    .wrapper-content {
+        margin-top: -14%;
+        margin-left: 0% !important;
+    }
+    .Group-img {
+        margin-top: -25% !important;
+        margin-left: -100% !important; 
+        width: 40% !important;
+    }
+    .circle {
+        text-align: justify !important;
+    }
+    .slider-img {
+        width: 92% !important;
+    }
+    .play-icon {
+        position: absolute;
+        top: 27% !important;
+        left: 24% !important;
+        width: 10% !important;
+    }
+    .Ellipse-bg
+    {
+       width: 60% !important;
+    }
+    .Watch-btn {
+        color: #4D4D4D;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .btn-order, .btn-order:hover {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 40px;
+        background: #39DB4A;
+        box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.50);
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 23px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 21px !important;
+        font-weight: 800;
+        line-height: 42px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+  #box-wrapper
+  {
+    display: none;
+  }
 #desc-header
 {
     display: none;
@@ -652,6 +776,141 @@ border-radius: 50%;
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
 {
+    .bars
+    {
+        display: flex !important;
+    }
+    .mobile-social {
+      
+        margin-top: -15% !important;
+    }
+    .mobile-logo .desc-logo
+    {
+        width: 45% !important;
+    }
+    .Copyright {
+        font-family: Inter;
+        font-size: 14px !important;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgb(85, 85, 85);
+    }
+    #Customer-Feedback img{
+width: 30% !important;
+    }
+    #Customer-Feedback
+    {
+        width: 100% !important;
+    }
+    .testimonia-head
+    {
+        font-family: Inter;
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+        .Catagories-text
+    {
+        font-family: Inter;
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+    
+    }
+        .story-head {
+            font-family: Inter;
+            font-size: 16px !important;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+        }
+        .user {
+            display: flex;
+            margin-top: 10%;
+            width: 75% !important;
+        }
+    #user1 img, #user2 img,#user3 img
+    {
+        width: 60% !important;
+    }
+    .wrapper-content {
+        margin-top: -14%;
+        margin-left: 0% !important;
+    }
+    .Group-img {
+        margin-top: -25% !important;
+        margin-left: -100% !important; 
+        width: 40% !important;
+    }
+    .circle {
+        text-align: justify !important;
+    }
+    .slider-img {
+        width: 92% !important;
+    }
+    .play-icon {
+        position: absolute;
+        top: 27% !important;
+        left: 24% !important;
+        width: 10% !important;
+    }
+     .Ellipse-bg
+     {
+        width: 60% !important;
+     }
+    .Watch-btn {
+        color: #4D4D4D;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .btn-order, .btn-order:hover {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 40px;
+        background: #39DB4A;
+        box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.50);
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 23px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 21px !important;
+        font-weight: 800;
+        line-height: 42px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+   #box-wrapper
+    {
+      display: none;
+    }
     #desc-header
     {
         display: none;
@@ -662,7 +921,7 @@ border-radius: 50%;
         height: 100px;
         width: 100%;
         display: flex;
-        padding: 3%;
+        padding: 10% !important;
         display: block !important;
     }
 }
@@ -670,6 +929,137 @@ border-radius: 50%;
   and (min-device-width:480px) 
   and (max-device-width:620px)
 {
+    .bars
+    {
+        display: flex !important;
+    }
+    .mobile-social {
+      
+        margin-top: -15% !important;
+    }
+    .mobile-logo .desc-logo
+    {
+        width: 45% !important;
+    }
+    .Copyright {
+        font-family: Inter;
+        font-size: 14px !important;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgb(85, 85, 85);
+    }
+    #Customer-Feedback img{
+width: 30% !important;
+    }
+    #Customer-Feedback
+    {
+        width: 100% !important;
+    }
+    .testimonia-head
+    {
+        font-family: Inter;
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+        .Catagories-text
+    {
+        font-family: Inter;
+        font-size: 16px !important;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+    
+    }
+        .story-head {
+            font-family: Inter;
+            font-size: 16px !important;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+        }
+        .user {
+            display: flex;
+            margin-top: 10%;
+            width: 75% !important;
+        }
+    #user1 img, #user2 img,#user3 img
+    {
+        width: 60% !important;
+    }
+    .wrapper-content {
+        margin-top: -14%;
+        margin-left: 0% !important;
+    }
+    .Group-img {
+        margin-top: -25% !important;
+        margin-left: -100% !important; 
+        width: 40% !important;
+    }
+    .circle {
+        text-align: justify !important;
+    }
+    .slider-img {
+        width: 92% !important;
+    }
+    .play-icon {
+        position: absolute;
+        top: 27% !important;
+        left: 24% !important;
+        width: 10% !important;
+    }
+     .Ellipse-bg
+     {
+        width: 60% !important;
+     }
+    .Watch-btn {
+        color: #4D4D4D;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 10%;
+    }
+    .btn-order, .btn-order:hover {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 9px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 40px;
+        background: #39DB4A;
+        box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.50);
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 23px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 21px !important;
+        font-weight: 800;
+        line-height: 42px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
     #desc-header
 {
     display: none;
@@ -680,7 +1070,7 @@ border-radius: 50%;
     height: 100px;
     width: 100%;
     display: flex;
-    padding: 3%;
+    padding: 10% !important;
     display: block !important;
 }
 }
@@ -688,32 +1078,248 @@ border-radius: 50%;
   and (min-device-width:620px) 
   and (max-device-width:720px)
   {
-    #desc-header
-    {
-        display: none;
+    .Catagories-box {
+        width: 180px !important;
+        height: 199px !important;
+        top: 1406px;
+        left: 155px;
+        border-radius: 20px;
+        box-shadow: 2px 10px 30px 0px #0000001A;
     }
-    #mobile-header {
-        background: #FFF;
-        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
-        height: 100px;
-        width: 100%;
-        display: flex;
-        padding: 3%;
-        display: block !important;
+    .desc-nav {
+        width: 35% !important;  
+    }
+    .desc-social {
+        width: 45% !important;
+    }
+    .btn-contact {
+        background: #39DB4A;
+        width: 159px;
+        border-radius: 16px !important;
+        height: 50% !important;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 20px !important;
+        font-weight: 800;
+        line-height: 41px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    .btngroup {
+        margin-top: 8%;
+        width: 118% !important;
+    }
+    .slider-img {
+        width: 50% !important;
+    }
+    .Group-img {
+        margin-top: -18%;
+        margin-left: -71% !important;
+        width: 37% !important;
+    }
+    #box-wrapper
+    {
+        display: none !important;
+    }
+    #user1,#user2,#user3
+    {
+        width: 50% !important ;
+    }
+    .user-details
+    {
+        width: 100% !important;
+    }
+    .Customer-Feedback {
+        font-family: Inter;
+        font-size: 11px !important;
+        font-weight: 600;
+        line-height: 0px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+    .story-box {
+        width: 170px !important; 
+        height: 187px !important;
+        box-shadow: 7px 12px 43px 0px #00000024;
+        border-radius: 20px;
+        padding: 10%;
     }
   }
 @media only screen 
   and (min-device-width:720px) 
   and (max-device-width:820px)
   {
-
-
+    .Catagories-box {
+        width: 180px !important;
+        height: 199px !important;
+        top: 1406px;
+        left: 155px;
+        border-radius: 20px;
+        box-shadow: 2px 10px 30px 0px #0000001A;
+    }
+    .desc-nav {
+        width: 35% !important;  
+    }
+    .desc-social {
+        width: 45% !important;
+    }
+    .btn-contact {
+        background: #39DB4A;
+        width: 159px;
+        border-radius: 16px !important;
+        height: 50% !important;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 20px !important;
+        font-weight: 800;
+        line-height: 41px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    .btngroup {
+        margin-top: 8%;
+        width: 118% !important;
+    }
+    .slider-img {
+        width: 50% !important;
+    }
+    .Group-img {
+        margin-top: -18%;
+        margin-left: -71% !important;
+        width: 37% !important;
+    }
+    #box-wrapper
+    {
+        display: none !important;
+    }
+    #user1 img,#user2 img ,#user3 img
+    {
+        width:50% !important ;
+    }
+    .user-details
+    {
+        width: 100% !important;
+    }
+    .Customer-Feedback {
+        font-family: Inter;
+        font-size: 11px !important;
+        font-weight: 600;
+        line-height: 0px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+    .story-box {
+        width: 170px !important; 
+        height: 187px !important;
+        box-shadow: 7px 12px 43px 0px #00000024;
+        border-radius: 20px;
+        padding: 10%;
+    }
 }
 @media only screen 
   and (min-device-width:820px) 
   and (max-device-width:1200px)
   {
 
+    .Catagories-box {
+        width: 180px !important;
+        height: 199px !important;
+        top: 1406px;
+        left: 155px;
+        border-radius: 20px;
+        box-shadow: 2px 10px 30px 0px #0000001A;
+    }
+    .desc-nav {
+        width: 35% !important;  
+    }
+    .desc-social {
+        width: 45% !important;
+    }
+    .btn-contact {
+        background: #39DB4A;
+        width: 159px;
+        border-radius: 16px !important;
+        height: 50% !important;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 20px !important;
+        font-weight: 800;
+        line-height: 41px !important;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .banner-para p {
+        font-family: Inter;
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4A4A4A;
+    }
+    .btngroup {
+        margin-top: 8%;
+        width: 118% !important;
+    }
+    .slider-img {
+        width: 50% !important;
+    }
+    .Group-img {
+        margin-top: -18%;
+        margin-left: -71% !important;
+        width: 37% !important;
+    }
+    #box-wrapper
+    {
+        display: none !important;
+    }
+    #user1 img,#user2 img ,#user3 img
+    {
+        width:50% !important ;
+    }
+    .user-details
+    {
+        width: 100% !important;
+    }
+    .Customer-Feedback {
+        font-family: Inter;
+        font-size: 11px !important;
+        font-weight: 600;
+        line-height: 0px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+    }
+    .story-box {
+        width: 170px !important; 
+        height: 187px !important;
+        box-shadow: 7px 12px 43px 0px #00000024;
+        border-radius: 20px;
+        padding: 10%;
+    }
 
 
 
